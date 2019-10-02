@@ -3,6 +3,7 @@ body, html { margin: 0; }
 
 body{
 	background-image: url('./assets/fondop.jpg');
+	z-index: -1;
 }
 
 img{
@@ -17,8 +18,8 @@ form img{
 	position: fixed;
 	width: 40px;
 	height: 40px;
-	right: 2%;
-	top: 2.50vh;
+	right: 4%;
+	top: 3.5vh;
 	transform: translateX(-50%) translateY(-50%);
 	opacity: 0.75;
 }
@@ -30,7 +31,7 @@ form img{
   border-radius: 30px;
   background: white;
 	box-shadow: 2px 3px 7px grey;
-	right: 4.5%;
+	right: 3%;
 	top: 6.75vh;
 	transform: translateX(-50%) translateY(-50%);
 }
@@ -73,7 +74,7 @@ form img{
 .navbar-form
 {
 	position: fixed;
-	left: 40%;
+	left: 50%;
 	top: 6.75vh;
 	transform: translateX(-50%) translateY(-50%);
 }
@@ -96,6 +97,7 @@ input {
 .navmarques-title{
 	position: fixed;
 	left: 2%;
+	font-size: 110%;
 }
 
 #navmarques-choice{
@@ -103,6 +105,7 @@ input {
 	top: 22%;
 	left: 1px;
 	color: black;
+	font-size: 70%;
 }
 
 .navprix{
@@ -118,6 +121,7 @@ input {
 .navprix-title{
 	position: fixed;
 	left: 2%;
+	font-size: 80%;
 }
 
 /*.fieldset{
@@ -140,3 +144,59 @@ legend {
 input {
     margin: .4rem;
 }*/
+
+
+/*.placement{
+	display: flex;
+	justify-content: space-between;
+}*/
+
+#carre1 {
+	position: relative;
+	box-shadow: 0px 3px 15px black;
+	z-index: 1;
+	top: 20vh;
+	left: 250px;
+    height: 250px;
+    width: 250px;
+    background: white;
+    border-radius: 10px;
+}
+
+#carre2 {
+	position: relative;
+	box-shadow: 0px 3px 15px black;
+	z-index: 1;
+	bottom: 7.1vw;
+	left: 550px;
+    height: 250px;
+    width: 250px;
+    background: white;
+    border-radius: 10px;
+}
+
+#carre3 {
+	position: relative;
+	box-shadow: 0px 3px 15px black;
+	z-index: 1;
+	bottom: 50.7vh;
+	left: 850px;
+    height: 250px;
+    width: 250px;
+    background: white;
+    border-radius: 10px;
+}
+
+#carre4 {
+	position: relative;
+	box-shadow: 0px 3px 15px black;
+	z-index: 1;
+	bottom: 86vh;
+	left: 1150px;
+    height: 250px;
+    width: 250px;
+    background: white;
+    border-radius: 10px;
+}
+
+
