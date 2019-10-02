@@ -2,29 +2,141 @@ body, html { margin: 0; }
 
 
 body{
-	background-image: url('./assets/fond.jpg');
+	background-image: url('./assets/fondop.jpg');
+}
+
+img{
+	position: fixed;
+	height: 7vh;
+	right: 10%;
+	top: 6.75vh;
+	transform: translateX(-50%) translateY(-50%);
+}
+
+form img{
+	position: fixed;
+	width: 40px;
+	height: 40px;
+	right: 2%;
+	top: 2.50vh;
+	transform: translateX(-50%) translateY(-50%);
+	opacity: 0.75;
+}
+
+#cercle {
+	position: fixed;
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  background: white;
+	box-shadow: 2px 3px 7px grey;
+	right: 4.5%;
+	top: 6.75vh;
+	transform: translateX(-50%) translateY(-50%);
 }
 
 .navbar{
 	position: fixed;
-	height: 15vh;
+	z-index: 5;
+	height: 13.5vh;
 	width: 100%;
-	background-color: grey;
+	background-color: rgba(38, 202, 245, 0.65);
+	/*border-top-width: thin;
+	border-left: 0px;
+	border-top: 0px;
+	border-right: 0px;
+	border-style: ridge;
+	border-color: grey;*/
+	box-shadow: 0px 3px 10px #404040;
+}
+
+.navbarverti{
+	position: fixed;
+	z-index: 4;
+	top: 13.6%;
+	height: 100%;
+	width: 23vh;
+	background-color: rgba(38, 202, 245, 0.65);
 }
 
 .nav-title{
 	color: white !important;
+	text-shadow: 2px 4px 6px black;
+	font-size: 300%;
 	width: 10%;
 	height: 5%;
-	line-height: 15vh;
-	margin: 0 0 0 65px;
+	line-height: 13.5vh;
+	margin: 0 0 0 65px
+
 }
 
-.navbar-form 
+.navbar-form
 {
 	position: fixed;
 	left: 40%;
-	top: 7.5vh;
+	top: 6.75vh;
 	transform: translateX(-50%) translateY(-50%);
 }
 
+input {
+	width: 700px;
+	height: 50px;
+}
+
+.navmarques{
+	position: fixed;
+	z-index: 4;
+	height: 25%;
+	width: 23vh;
+	top: 18vh;
+	background-color: white;
+	box-shadow: 0px 3px 10px #404040;
+}
+
+.navmarques-title{
+	position: fixed;
+	left: 2%;
+}
+
+#navmarques-choice{
+	position: fixed;
+	top: 22%;
+	left: 1px;
+	color: black;
+}
+
+.navprix{
+	position: fixed;
+	z-index: 4;
+	height: 25%;
+	width: 23vh;
+	top: 45vh;
+	background-color: white;
+	box-shadow: 0px 3px 10px #404040;
+}
+
+.navprix-title{
+	position: fixed;
+	left: 2%;
+}
+
+/*.fieldset{
+	position: fixed;
+	top: 70%;
+}
+
+legend {
+	position: fixed;
+	top: 70%;
+  background-color: black;
+  color: white;
+  padding: 3px 6px;
+}
+
+.output {
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input {
+    margin: .4rem;
+}*/
